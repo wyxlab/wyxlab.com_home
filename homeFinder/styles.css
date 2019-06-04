@@ -1,0 +1,15 @@
+span {
+    font-size: 24px;
+    font-weight: bold;
+}
+body {
+    font-size: 18px;
+}
+
+.evaluating {
+    /* background-color: blue;*/
+}
+
+.tobevaluated {
+    /* background-color: red; */
+}
