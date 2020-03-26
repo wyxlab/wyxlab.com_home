@@ -1,6 +1,23 @@
 body {
-    font-size:20px;
+    background-color:ivory;
+    margin: 0;
+}
+.daily-content {
+    font-size: 20px;
+    text-align: justify;
+    margin: 0 20 0 20
 }
 .citation {
     font-style: italic;
+}
+.signature {
+    font-style: italic;
+    font-size: 15px;   
+}
+.header-menu {
+    background-color:bisque;
+}
+.logo-image {
+    height: 30px;
+    margin: 1 0 1 10;
 }
