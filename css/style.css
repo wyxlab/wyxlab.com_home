@@ -16,8 +16,14 @@ body {
 }
 .header-menu {
     background-color:bisque;
+    display: flex;
 }
 .logo-image {
     height: 30px;
     margin: 1 0 1 10;
+    padding-right: 5px;
+}
+.daily-header {
+    padding: 5 0 0 10;
+    background-color: rgba(255,255,240,0.5);
 }
