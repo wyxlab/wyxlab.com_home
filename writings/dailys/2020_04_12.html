@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>WyxLab - 闲人闲不住 - 日记</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    </head>
+    <body>
+        <div class="header-menu">
+            <a href="https://wyxlab.com"><img class="logo-image" src="../../images/wyxlab-logo.png"></a>
+            <div class="dropdown daily-header">
+                <button onclick="myFunction()" class="dropbtn">闲人日记<i class='fas fa-angle-down'></i></button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="2020_03_23.html">2020-03-23</a>
+                  <a href="2020_03_26.html">2020-03-26</a>
+                  <a href="2020_03_28.html">2020-03-28</a>
+                </div>
+              </div>
+        </div>
+        <div class="daily-content">
+            <h3>12/04/20</h3>
+            <p>对着月亮发了一阵呆。今天的月亮比往日更近得样子：想是又到月半了，圆圆空空荡荡的一丝云影子都见不着；周边看专注了还能瞧见一两个星星的影子。</p>
+            <p>凑巧桌子上还有刚才倒的不打算喝了的酒，此情此景。。。端起杯子又接着看月亮。想必是眼睛的问题，看到一层白光环绕着月亮。又盯着月亮看了一阵子才想起来特意端出来得酒还在手上。举杯遥邀月，对影成三人。且由闲人陪君吟，踉跄醉舞。。。 等等云云。</p>
+            <p>看看手中一口也没动一下的酒。。。既然动都没有动一下，自然就说不出那酒后狂言，豪壮之气，相思之情等等</p>
+            <p>月亮阿月亮，麻烦你转述一下我这丝丝相念之意吧，就说丝丝相念之意，没喝酒说不出疯言狂语来。有劳有劳</p>
+            <p>等等云云</p>
+            <div class="signature">
+                <p>隐字</p>
+                年月日地
+            </div>
+        </div>  
+    </body>
+    <script>
+    /* 
+        When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content
+    */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+    </script>
+</html>
