@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>WyxLab - 闲人闲不住 - 日记</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    </head>
+    <body>
+        <div class="header-menu">
+            <a href="https://wyxlab.com"><img class="logo-image" src="../../images/wyxlab-logo.png"></a>
+            <div class="dropdown daily-header">
+                <button onclick="myFunction()" class="dropbtn">闲人日记<i class='fas fa-angle-down'></i></button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="2020_03_23.html">2020-03-23</a>
+                  <a href="2020_03_26.html">2020-03-26</a>
+                  <a href="2020_03_28.html">2020-03-28</a>
+                  <a href="2020_04_12.html">2020-04-12</a>
+                </div>
+              </div>
+        </div>
+        <div class="daily-content">
+            <h3>14/04/20</h3>
+            <p>风紧，扯乎。</p>
+            <p>风刮的有点大，哐当一下厨房被震动。急急的过去关窗户。为了防止另一次哐当开了厨房门一下猛蹦到窗口关上庆幸风还没来得及推门。</p>
+            <p> 阳台上拖水桶被风刮的前摔后倒忙的不亦乐乎. 左右已经不是第一次也就见怪不怪了，随它怎么闹腾反正怎么闹腾都得在阳台上耗着。</p>
+            <p> 无意随便往阳台外看了眼。有那么点不敢相信自己的眼睛。怎么随便风那么吹几下楼下眼前这些树上的嫩苗哗啦啦全都成了绿叶？昨天都还能看到对面的房子今天怎么就这么茂盛除了叶子还是叶子。是前两天又被那个与我为敌的妖人下了咒语导致我以为看到的只是枯枝嫩叶和对门空墙？</p>
+            <p> 忒，好你个妖人。又坏你家大爷好事。要不是你给你家大爷使了障眼法术昨天前天大前天肯定通过钻研树叶的突然变绿寻思出超越生死的惊天法术来。你这显然是知道了我成功的可能。我要周末一整个早上研究这一片绿叶。梅林啊梅林，别再守着你那个已经消失千多年的皇帝了。过来守我几天，务必要防止那个不知名的妖人再给我下套捣乱，我要研究绿叶，我要钻研奥秘。就是接下来这几天。</p>
+            <p>等等云云</p>
+            <div class="signature">
+                <p>隐字</p>
+                年月日地
+            </div>
+        </div>  
+    </body>
+    <script>
+    /* 
+        When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content
+    */
+    function myFunction() {  
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+    </script>
+</html>
