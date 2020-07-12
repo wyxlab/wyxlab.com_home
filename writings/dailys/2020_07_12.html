@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>WyxLab - 闲人, "日"记</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    </head>
+    <body>
+        <div class="header-menu">
+            <a href="https://wyxlab.com"><img class="logo-image" src="../../images/wyxlab-logo.png"></a>
+            <div class="dropdown daily-header">
+                <button onclick="myFunction()" class="dropbtn">闲人日记<i class='fas fa-angle-down'></i></button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="2020_03_23.html">2020-03-23</a>
+                  <a href="2020_03_26.html">2020-03-26</a>
+                  <a href="2020_03_28.html">2020-03-28</a>
+                  <a href="2020_04_12.html">2020-04-12</a>
+                  <a href="2020_04_14.html">2020-04-12</a>
+                </div>
+              </div>
+        </div>
+        <div class="daily-content">
+            <h3>11/07/20</h3>
+            <p>一眨眼三个月过去才又把这东西给拉出来，其间种种非这个地方所该涉及之事略过不提。</p>
+            <p>Verona家对面有个大叔，大爷。。大哥。。。 不知道多大。自从2000年初搬到那边后经常会看到他坐在楼下做一些木活，二十来年了时不时会见到他做一些小器件。
+            其实是一直没有怎么在意过，他喜欢做这些东西没什么好大惊小怪。</p> 
+            <p> 前两天回去，外面回来的时候见到他又在小仓库（停车房）前做东西，以前一直没注意过他做的东西具体都是什么。这次一眼看出是在做一个帆船。
+            出于好奇就过去搭茬。说来惭愧，从2000那几年搬家到现在前两天是第一次和他说话。</p>
+            <p>整个船身已经差不多做好，有一句每一句得和他聊起来。</p>
+            <p>所有材料零件配件木料等等都是他自己准备，唯一买来的只是船的设计图。</p>
+            <p>做船身已经花费了三年的时间。要是全都做好可能还需要十年。不过快要退休到时候应该会更快。</p>
+            <p>帆船的名字叫做 Bonhomme Richard.</p>
+            <p>对我介绍说船的比例是1：42，所以真船应该在45到50米之间。</p>
+            <p>而且，更厉害的是，所有船里的物件都将和真船一样正常运作。</p>
+            <p>随便拍了几个照片，发上来留个纪念。希望当他完成的时候能够有机会看到最终成品。肯定会无比壮观。又从网上找了两个照片，可以参照一下困难程度。</p>
+            <div class="image-viewer">
+                <img class="img-dim" src="../../images/dailys/20200710_104232.jpg">
+                <img class="img-dim" src="../../images/dailys/20200710_104311.jpg">
+                <img class="img-dim" src="../../images/dailys/20200710_104326.jpg">
+                <img class="img-dim" src="../../images/dailys/20200710_104341.jpg">
+                <img class="img-dim" src="../../images/dailys/20200710_104346.jpg">
+                <img class="img-dim" src="../../images/dailys/20200710_104348.jpg">
+                <img class="img-dim" src="../../images/dailys/20200710_104650.jpg">
+                <img class="img-dim" src="../../images/dailys/20200710_104657.jpg">
+                <img class="img-dim" src="../../images/dailys/bonhommerichard.jpg">
+                <img class="img-dim" src="../../images/dailys/bonhommerichard2.jpg">
+                
+            </div>
+            <p>感觉是夸他是个艺人工匠一点不为过，不管他做任何工作。</p>
+            <p>因为喜欢而做，夸他都没必要了。何必那么拘谨。值得钦佩就是了多说无益。</p>
+            <p>等等云云</p>
+            <div class="signature">
+                <p>隐字</p>
+                年月日地
+            </div>
+        </div>  
+    </body>
+    <script>
+    /* 
+        When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content
+    */
+    function myFunction() {  
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+    </script>
+</html>

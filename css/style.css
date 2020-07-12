@@ -62,3 +62,14 @@ body {
 .show {
     display: block;
 }
+
+.image-viewer {
+    text-align: center;
+}
+
+.img-dim {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
